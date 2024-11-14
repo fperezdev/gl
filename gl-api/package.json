@@ -1,0 +1,17 @@
+{
+  "name": "gl-api",
+  "version": "1.0.0",
+  "description": "API for challenge by Grupo Lagos",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --experimental-sqlite --env-file=.env .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fperez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "redis": "^4.7.0"
+  }
+}
